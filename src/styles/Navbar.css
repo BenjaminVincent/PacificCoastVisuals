@@ -1,0 +1,34 @@
+.navbar-container {
+    /* Other colors:
+        darkNavy: #30394d;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #30394d;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+
+.navbar-title {
+    color: #eee;
+    font-family: 'Noto Sans JP';
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 90px;
+}
+
+.navbar-icons-container {
+    margin-right: 90px;
+}
+
+.navbar-icon {
+    color: #eee;
+}
+
+.navbar-icon:hover {
+    cursor: pointer;
+}
