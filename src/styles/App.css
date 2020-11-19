@@ -1,5 +1,7 @@
 .app-container {
   min-width: 100vmin;
-  min-height: 100vmin;
+  min-height: 100vh;
   background-color: #30394d;
+  color: #eee;
+  font-family: 'Noto Sans JP';
 }

@@ -14,19 +14,20 @@
 }
 
 .navbar-title {
-    color: #eee;
-    font-family: 'Noto Sans JP';
+    cursor: pointer;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 620;
     margin-left: 90px;
 }
 
 .navbar-icons-container {
     margin-right: 90px;
+    height: 32px;
 }
 
 .navbar-icon {
     color: #eee;
+    padding: 0px 4px 0px 4px;
 }
 
 .navbar-icon:hover {
