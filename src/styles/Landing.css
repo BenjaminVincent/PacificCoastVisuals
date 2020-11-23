@@ -1,6 +1,14 @@
 .landing-container {
-    font-size: 50px;
-    padding: 50px 50px 50px 50px;
+    height: 100vh;
+    /* font-size: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.landing-title {
+    text-align: center;
 }
 
 .landing-text {
