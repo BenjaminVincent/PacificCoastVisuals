@@ -1,0 +1,47 @@
+.navlink-container {
+
+}
+
+.navlink-list {
+    width: 400px; height: 50px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.navlink-item {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: rgb(224, 150, 53);
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+  }
+   
+  .link:hover:after{
+    width: 100%;
+    left: 0;
+    background: rgb(224, 150, 53);
+  }
+
+/* .navlink-item::before {
+    content: '/ ';
+    padding: 0px 12px 0px 9px;
+} */
