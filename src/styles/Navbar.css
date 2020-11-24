@@ -2,15 +2,25 @@
     /* Other colors:
         darkNavy: #30394d;
     */
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #30394d;
     margin: 0 auto; /* This will center the border. */
-    width: 98%;
+    width: 100%;
     border-bottom: 1px solid #eee;
     height: 70px;
     z-index: 999;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu:hover {
+    cursor: pointer;
 }
 
 .navbar-title {
@@ -38,22 +48,33 @@
 /* ---Mobile view adjustments--- */
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 840px) {
 
     .navbar-container {
         display: flex;
+        flex-wrap: nowrap;
         align-items: center;
-        justify-content: center;
         background-color: #30394d;
         margin: 0 auto; /* This will center the border. */
         border-bottom: 1px solid #eee;
         height: 70px;
         z-index: 999;
+        padding-left: 16px;
+    }
+
+    .navbar-menu {
+        display: block;
     }
 
     .navbar-title {
         font-size: 23px;
         margin-left: 0px;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navbar-link {
+        display: none;    
     }
     .navbar-icons-container {
         display: none;

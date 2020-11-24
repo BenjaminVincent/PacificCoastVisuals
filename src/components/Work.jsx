@@ -4,7 +4,7 @@ import '../styles/Work.css';
 
 const Work = () => {
     return (
-        <div className='work-container'>
+        <div className='work-container' id='Work'>
             Work
         </div>
     );
